@@ -1,0 +1,46 @@
+{
+  "name": "pysfoc-api",
+  "version": "1.0.0",
+  "description": "People You Should Follow on CodePen API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nucliweb/pysfoc-api.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "api",
+    "codepen",
+    "puppeteer",
+    "webscraping"
+  ],
+  "author": {
+    "name": "Joan León",
+    "twitter": "@nucliweb",
+    "web": "https://joanleon.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nucliweb/pysfoc-api/issues"
+  },
+  "homepage": "https://github.com/nucliweb/pysfoc-api#readme",
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
+  },
+  "prettier": "./node_modules/@s-ui/lint/.prettierrc.js",
+  "stylelint": {
+    "extends": "./node_modules/@s-ui/lint/stylelint.config.js"
+  },
+  "devDependencies": {
+    "@s-ui/lint": "^3.14.0"
+  }
+}
