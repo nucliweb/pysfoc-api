@@ -33,7 +33,7 @@ const scrap = async ({user}) => {
     })
     codepenCoders = [...codepenCoders, data]
     fs.writeFile('codepenCoders.js', JSON.stringify(codepenCoders), () => {
-      console.log('codepenCoders writed 😊')
+      console.log('CodePen Coders writed 😊')
     })
     await browser.close()
   }
