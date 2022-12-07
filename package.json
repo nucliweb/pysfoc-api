@@ -41,6 +41,6 @@
     "extends": "./node_modules/@s-ui/lint/stylelint.config.js"
   },
   "devDependencies": {
-    "@s-ui/lint": "^3.14.0"
+    "@s-ui/lint": "^3.47.0"
   }
 }
